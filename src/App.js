@@ -27,6 +27,8 @@ function App() {
         setName('')
         setEmail('')
         setMessage('')
+        alert("Your email has been sent successfully.");
+        return; 
     }, (err) => {
          console.log("erro: ", err)
     }) 
