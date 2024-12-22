@@ -23,16 +23,15 @@ function App() {
 
     emailjs.send("service_2cnqh5t", "template_59d1rza", templeteParams, "dO7tFerEOHEsaFB8f")
     .then((response) => {
+      alert("Your email has been sent successfully.");
         console.log("EMAIL SENT", response.status, response.text)
         setName('')
         setEmail('')
-        setMessage('')
-        alert("Your email has been sent successfully.");
-        return; 
+        setMessage('')  
     }, (err) => {
          console.log("erro: ", err)
     }) 
-}
+}  
 
           
   return (
