@@ -6,11 +6,16 @@ function App() {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
+  function sendEmail(e){
+    e.preventDefault();
+    
+    alert("TEST")
+}
   return (
     <div className="container">
-      <h1 className="title">Nacex</h1>
+      <h1 className="title">NaceX</h1>
 
-      <form className="form" onSubmit={() => {}}>
+      <form className="form" onSubmit={sendEmail}>
         <input 
           className="input"
           type="text"
