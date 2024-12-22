@@ -10,6 +10,21 @@
   padding: 14px;
 }
 
+.p {
+  font-size: 14px;
+  color: #FFF;
+  align-items: top;
+  margin-bottom: 1%;
+ text-align: center;
+ flex-direction: column;
+ max-width: 600px;
+ width: 100%;
+}
+
+span {
+  color: #fe5000;
+}
+
 .title{
   margin-bottom: 14px;
 }
@@ -50,6 +65,8 @@
   background-color: #fe5000;
   font-size: 20px;
   transition: background-color, transform 0.8s;
+  max-width: 600px;
+  width: 100%;
 }
 
 .button:hover{
