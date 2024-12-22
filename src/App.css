@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
   background-color: #121212;
-  color: #FFF;
+  color: #fe5000;
   padding: 14px;
 }
 
@@ -40,6 +40,8 @@
 
 .button{
 
+  justify-content: center;
+  align-items: center;
   color: #FFF;
   height: 34px;
   border-radius: 4px;
